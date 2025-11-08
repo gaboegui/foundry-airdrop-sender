@@ -1,0 +1,56 @@
+{"abi": [
+        {
+            "type": "function",
+            "name": "airdropERC20",
+            "inputs": [
+                {
+                    "name": "tokenAddress",
+                    "type": "address",
+                    "internalType": "address"
+                },
+                {
+                    "name": "recipients",
+                    "type": "address[]",
+                    "internalType": "address[]"
+                },
+                {
+                    "name": "amounts",
+                    "type": "uint256[]",
+                    "internalType": "uint256[]"
+                },
+                {
+                    "name": "totalAmount",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "error",
+            "name": "Sender__RecipientIsZeroAddress",
+            "inputs": []
+        },
+        {
+            "type": "error",
+            "name": "Sender__RecipientsAndAmountsLengthMismatch",
+            "inputs": []
+        },
+        {
+            "type": "error",
+            "name": "Sender__TotalAmountMismatch",
+            "inputs": []
+        },
+        {
+            "type": "error",
+            "name": "Sender__TransferFailed",
+            "inputs": []
+        },
+        {
+            "type": "error",
+            "name": "Sender__TransferFromFailed",
+            "inputs": []
+        }
+    ]
+}

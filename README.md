@@ -6,6 +6,8 @@ This project provides a set of Solidity smart contracts for efficiently airdropp
 
 The contracts are designed to be simple, secure, and efficient, making them ideal for token distribution events, community rewards, and other bulk-sending scenarios.
 
+[Deployed contract on Sepolia Ethereum](#deployed-contract-on-sepolia-ethereum)
+
 ## Features
 
 - **Bulk ERC20 Distribution:** Airdrop tokens to a large number of addresses in a single transaction.
@@ -96,5 +98,23 @@ The `script/Sender.s.sol` and `script/TSender.s.sol` files contains a basic depl
 forge script script/Sender.s.sol:DeployScript --rpc-url $YOUR_RPC_URL --private-key $YOUR_PRIVATE_KEY --broadcast
 forge script script/TSender.s.sol:DeployScript --rpc-url $YOUR_RPC_URL --private-key $YOUR_PRIVATE_KEY --broadcast
 ```
-
 Remember to replace `$YOUR_RPC_URL` and `$YOUR_PRIVATE_KEY` with your actual data. To deploy the `TSender` contract, you would create a similar script for it.
+
+#### Deployed contract on Sepolia Ethereum:
+[0x08caA548a302C465e28432449C9De03ea091Af48](https://sepolia.etherscan.io/address/0x08caA548a302C465e28432449C9De03ea091Af48#code)
+
+## Documentation
+
+- [Foundry Book](https://book.getfoundry.sh/)
+- [Chainlink CCIP Documentation](https://docs.chain.link/ccip)
+
+## Donations
+
+If you found this project helpful, feel free to follow me or make a donation!
+
+**ETH/Arbitrum/Optimism/Polygon/BSC/etc Address:** `0x2210C9bD79D0619C5d455523b260cc231f1C2F0D`
+
+## Contact
+
+[![Gabriel Eguiguren P. X](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/GaBoEgui)
+[![Gabriel Eguiguren P. Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabrieleguiguren/)

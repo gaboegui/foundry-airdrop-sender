@@ -17,6 +17,7 @@ interface IERC20 {
 /**
  * @title Sender contract to allow AirDrops
  * @author Gabriel Eguiguren P.
+ * @notice all documentation on: https://github.com/gaboegui/foundry-airdrop-sender
  * @dev TSender.sol is fair more gas efficient in deployment specially
  */
 contract Sender {
