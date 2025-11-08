@@ -106,7 +106,6 @@ Remember to replace `$YOUR_RPC_URL` and `$YOUR_PRIVATE_KEY` with your actual dat
 ## Documentation
 
 - [Foundry Book](https://book.getfoundry.sh/)
-- [Chainlink CCIP Documentation](https://docs.chain.link/ccip)
 
 ## Donations
 
